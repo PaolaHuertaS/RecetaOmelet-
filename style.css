@@ -2,6 +2,7 @@
     font-family: "Young Serif", serif;
     font-style: normal;
     color: rgb(55, 53, 55);
+    font-weight: lighter;
 }
 
 .outfit-dos {
@@ -18,19 +19,19 @@ body {
 .bloque {
     background-color: white;
     border-radius: 30px;
-    width: 900px;
-    margin: 280px;
+    margin: 350px;
+    margin-left: 390px;
     text-align: justify;
     padding: 30px;
     font-family: "Outfit", sans-serif;
-    color: rgb(78, 75, 72);
+    color: rgb(108, 106, 103);
+    max-width: 700px;
 }
 
 img {
-    border-radius: 30px;
-    width: 840px;
-    margin-top: 20px;
-    margin-left: 30px;
+    border-radius: 15px;
+    width: 660px;
+    margin: 20px;
 }
 
 .outfit-uno {
@@ -52,36 +53,47 @@ img {
     background-color: rgba(248, 234, 248, 0.723);
     border-radius: 10px;
     height: 190px;
+    margin-top: 0px;
 }
 
 .lista {
-    padding-top: 5px;
-    padding-left: 70px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-left: 60px;
     text-align: justify;
     font-size: medium;
+}
+
+.listado {
+    padding-left: 20px;
 }
 
 .sub {
     font-family: "Young Serif", serif;
     color: rgb(132, 60, 36);
-    font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .fuente {
     font-size: 400px;
     text-align: left;
     font-family: "Young Serif", serif;
+    margin-top: auto;
+    margin-bottom: auto
 }
 
 .final {
+    margin-top: 0;
     font-size: 16px;
-    padding-left: 3px;
 }
 
 .info {
-    padding-top: 12px;
+    padding-top: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     font-size: 16px;
     padding-left: 35px;
 }
@@ -90,6 +102,8 @@ img {
 .tbdos,
 .tbtres,
 .tbcuatro {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 300px;
     font-weight: bold;
     color: rgb(132, 60, 36);
@@ -108,30 +122,35 @@ img {
 }
 
 .separador,
-.invisible, 
 .tabla {
     color: rgb(140, 136, 136);
     opacity: 40%;
-    width: 95%;
-    margin-top: 50px; 
-    margin-bottom: 30px;
+    width: 99%;
+    margin-top: 40px; 
+    margin-bottom: 15px;
     height: 1px;
 }
 
 .tabla {
+    color: rgb(140, 136, 136);
     opacity: 40%;
-    width: 95%;
-    margin: 0;
- 
+    width: 99%;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    height: 1px;
 }
 
-.invisible {
-     opacity: 0%; 
-     margin-top: 10px;
-     margin-bottom: 20px;
-     size: 0;
-}
 
 .contenedor {
-    margin: 30px;
+    margin: 20px;
+}
+
+.instruction-text {
+        color: rgb(108, 106, 103);
+        font-weight: normal;  
+        line-height: 1.4;   
+}
+
+.principal {
+   margin-bottom: 1px;
 }
