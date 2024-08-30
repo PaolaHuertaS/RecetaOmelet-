@@ -4,11 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Separacion entre elementos
-       Colores
-       Tamaño del componente principal
-       Fuentes
-       Bordes -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
@@ -22,17 +17,17 @@
     li {
       color: rgb(132, 60, 36);
       font-weight: bold;
-      padding-left: 40px;
+      padding-left: 10px;
     }
 
     li span {
-      color: rgb(88, 84, 82);
+      color: rgb(108, 106, 103);
       font-weight: lighter;
       font-family: "Outfit", sans-serif;
-    }
 
+    }
     b {
-      color: rgb(47, 45, 45);
+      color: rgb(89, 85, 85);
     }
   </style>
 </head>
@@ -43,11 +38,9 @@
     <img src="image-omelette.jpeg">
     <div class="contenedor">
       <h1 class=" fuente, young-serif-regular ">Simple Omelette Recipe</h1>
-       <hr class="invisible">
-      <span class="outfit-dos"> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs
+      <span class="outfit-dos, principal"> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs
         cooked
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.</span>
-       <hr class="invisible">
       <div class="preparacion">
         <h2 class="inicial ,outfit-uno ">Preparation time</h2>
         <ul class="lista">
@@ -60,10 +53,9 @@
 
         </ul>
       </div>
-       <hr class="invisible">
       <h3 class="sub">Ingredients</h3>
 
-      <ul class="lista">
+      <ul class="lista, listado">
         <li><span>2-3 large eggs</span></li>
         <br>
         <li><span>Salt, to taste</span></li>
@@ -76,9 +68,8 @@
       </ul>
 
       <hr class="separador">
-
       <h4 class="sub">Instructions</h4>
-      <ol start=1>
+      <ol start=1 class="listado">
         <li><b>Beat the eggs:</b><span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well
             mixed.
             You can add a tablespoon of water or milk for a fluffier texture.</li>
@@ -87,21 +78,19 @@
         <li><b>Heat the pan:</b><span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
         </span>
         <br>
-        <li><b>Cook the omelette:</b><span> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to
+        <li><b>Cook the omelette:</b><span class="instruction-text"> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to
             ensure
             the eggs evenly coat the surface.</span></li>
         <br>
-        <li><b>Add fillings (optional):</b><span> When the eggs begin to set at the edges but are still slightly runny
-            in
-            the
-            middle, sprinkle your chosen fillings over one half of the omelette.</li>
+        <li><b>Add fillings (optional):</b><span class="instruction-text"> When the eggs begin to set at the edges but are still slightly runny
+            in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
         </span>
         <br>
-        <li><b>Fold and serve:</b><span> As the omelette continues to cook, carefully lift one edge and fold it over the
+        <li><b>Fold and serve:</b><span class="instruction-text"> As the omelette continues to cook, carefully lift one edge and fold it over the
             fillings. Let it cook for another minute, then slide it onto a plate.</li>
         </span>
         <br>
-        <li><b>Enjoy:</b><span> Serve hot, with additional salt and pepper if needed.</li>
+        <li><b>Enjoy:</b><span class="instruction-text"> Serve hot, with additional salt and pepper if needed.</li>
         </span>
       </ol>
 
