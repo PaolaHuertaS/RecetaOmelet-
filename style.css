@@ -13,24 +13,39 @@
 }
 
 body {
+   
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px; 
+    box-sizing: border-box;
     background-color: rgb(243, 229, 216);
 }
 
 .bloque {
     background-color: white;
     border-radius: 30px;
-    margin: 350px;
+    margin: auto;
+    box-sizing: border-box;
     margin-left: 390px;
     text-align: justify;
     padding: 30px;
     font-family: "Outfit", sans-serif;
     color: rgb(108, 106, 103);
     max-width: 700px;
+    
+}
+
+@media (max-width: 950px) {
+    .bloque {
+        max-width: 95%;
+    }
 }
 
 img {
     border-radius: 15px;
-    width: 660px;
+    width: 600px;
     margin: 20px;
 }
 
@@ -44,22 +59,24 @@ img {
 .inicial {
     color: rgb(121, 14, 79);
     text-align: left;
-    margin-top: 50px;
-    margin-left: 40px;
-    padding-top: 15px;
+    margin-top: 60px;
+    margin-left: 35px;
+    padding-top: 18px;
+    padding-bottom: 1px;
 }
 
 .preparacion {
     background-color: rgba(248, 234, 248, 0.723);
     border-radius: 10px;
-    height: 190px;
+    height: 200px;
     margin-top: 0px;
 }
 
 .lista {
     margin-bottom: 5px;
     padding-top: 1px;
-    padding-left: 60px;
+    padding-left: 50px;
+    padding-bottom: 5px;
     text-align: justify;
     font-size: medium;
 }
